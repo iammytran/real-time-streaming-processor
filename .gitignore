@@ -8,6 +8,7 @@
 /dashboard.pnp.js
 /server.pnp.js
 /dashboard/package-lock.json
+/server/package-lock.json
 
 # testing
 /dashboard/coverage
