@@ -14,13 +14,11 @@ app.get('/events', (req, res) => {
 
     const generateClickEvent = () => {
         const pages = ['Home', 'About', 'Services', 'Contact', 'Blog'];
-        const channels = ['Ads', 'Direct', 'Referral'];
 
         return {
             userId: Math.floor(Math.random() * 1000),
             action: 'click',
             page: pages[Math.floor(Math.random() * pages.length)],  
-            channel: channels[Math.floor(Math.random() * channels.length)], 
             timestamp: new Date().toISOString(),
         };
     };
