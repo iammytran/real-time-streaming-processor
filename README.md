@@ -57,6 +57,4 @@ The server will start at http://localhost:3000.
     npm install
     npm start
     ```
-## 📜 License
-This project is licensed under the MIT License.
 
