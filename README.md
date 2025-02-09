@@ -14,14 +14,6 @@ A **full-stack real-time dashboard** that visualizes streaming event data using 
 - **Styling**: CSS
 
 ## 📂 Project Structure
-dashboard/ 
-│── src/ 
-│ ├── components/ # Reusable UI components 
-│ ├── App.js # Main dashboard logic 
-│ ├── index.js # Entry point 
-│── public/ # Static assets 
-│── package.json # Dependencies and scripts
-
 ```plaintext
 real-time-streaming-processor/ 
 │── server/ # Backend server for event streaming 
@@ -57,4 +49,4 @@ The server will start at http://localhost:3000.
     npm install
     npm start
     ```
-
+When prompted in the console to run the app on a different port than 3000, confirm by selecting "Yes." The app will then start on the available port, typically http://localhost:3001.
